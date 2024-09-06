@@ -49,7 +49,7 @@ jobs:
 
       - uses: ./.github/actions/deps
       - uses: ./.github/actions/hugepages
-      - uses: dtolnay/rust-toolchain@1.73.0
+      - uses: dtolnay/rust-toolchain@1.90.0
 
       - name: Run tests
         run: |
